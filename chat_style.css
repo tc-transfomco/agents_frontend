@@ -1,0 +1,39 @@
+#tips-column {
+    background-color: #F2E6FF;  /* Soft lilac background */
+    border-radius: 3px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);        
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    flex-grow: 0 !important;
+}
+
+#tips-header {
+    color: #6A1B9A;  /* Purple header */
+    text-align: center;
+    font-weight: bold;
+}
+
+#tips-body {
+    color: #4A148D;  /* Dark purple text */
+    text-align: center;
+}
+
+#chat-column {
+    background-color: #FBFBFB;  /* Gray background for the chat */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.gradio-container {
+    background-color: #EDE7F6;  /* Light lilac background for the entire app */
+}
+
+#chat-column, #tips-column {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    transition: all 0.5s ease;
+}
+
+#chat-column:hover, #tips-column:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
